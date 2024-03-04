@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- kayma olmaması için yazacağın yazıyı table etiketi içinde yazmalısın -->
+
+<style>
+   .formd{
+      width: 420px;
+      background-color: cadetblue;
+   }
+</style>
+
+<body>
+   <div class="formd"> 
+   <form>
+      <table>
+         <tr>
+            <th>Adınız : </th>
+            <td><input type="text"></td>
+         </tr>
+         <tr>
+            <th>Soyadınız : </th>
+            <td><input type="text"></td>
+         </tr>
+         <tr>
+            <th>Email Adres : </th>
+            <td><input type="email"></td>
+         </tr>
+         <tr>
+            <th>Şifreniz : </th>
+            <td><input type="password"></td>
+         <tr>
+            <th>Cinsiyetiniz : </th> 
+            <td> Kadın <input type="radio" name="cinsiyetradio"></td>
+            <td> Erkek <input type="radio" name="cinsiyetradio"></td>
+         <tr>
+            <th>Doğum Tarihiniz : </th>
+            <td><input type="date"></td>
+         </tr>
+         <tr>
+            <th>Hobiler : </th> 
+            <td>Kitap Okumak <input type="checkbox"> <br>
+            Film İzlemek <input type="checkbox"> <br>
+            Alışveriş Yapmak <input type="checkbox"> <br>
+            Kamp Yapmak <input type="checkbox"></td>
+         </tr>
+         <tr>
+            <td colspan="3"><input type="file"></td>
+         </tr>
+         <tr>
+            <td colspan="2"><textarea name="" id="" cols="40" rows="10" placeholder="Mesajınızı Giriniz"></textarea></td>
+         </tr>
+         <tr>
+            <td>Okudum, onaylıyorum <input type="radio" name="sozlesmeradio"></td>
+         </tr>
+         <tr>
+            <td>Okudum, onaylamıyorum <input type="radio" name="sozlesmeradio"></td>
+         </tr>
+         <tr>
+            <td colspan="2"><input type="submit" value="Gönder"> <input type="reset" value="temizle"></td>
+         </tr>
+      </table>
+   </form>
+   </div>
+</html>
